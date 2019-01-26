@@ -1,0 +1,5 @@
+class ChangedTableActorToActors < ActiveRecord::Migration[5.1]
+  def change
+    rename_table :actor, :actors
+  end
+end
